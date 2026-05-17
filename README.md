@@ -1,10 +1,71 @@
 # Professional Portfolio Documents — Erick Pérez Mendoza
 
-This repository contains a curated collection of project reports, technical documents, and final deliverables focused on Data Science, Machine Learning, Data Engineering, Natural Language Processing, Computer Vision, and AI-powered analytical systems.
+This repository contains a curated collection of project reports, technical documents, and final deliverables focused on Data Science, Machine Learning, Data Engineering, Natural Language Processing, Computer Vision, Recommendation Systems, and AI-powered analytical platforms.
 
-Each project document summarizes the problem statement, dataset description, methodology, feature engineering process, models used, results, limitations, and conclusions.
+The projects are organized as a technical progression. The first four projects explore specific areas such as predictive analysis, music analytics, visual embeddings, clustering, and recommendation systems. The fifth project, **StoryIA**, is the main featured project in this portfolio because it integrates several techniques developed across previous modules into a single multimodal AI platform.
 
-## Projects
+## Portfolio Focus
+
+While each project addresses a different technical challenge, **StoryIA** is the most complete and robust project in this portfolio. It brings together data collection, exploratory analysis, feature engineering, natural language processing, visual embeddings, clustering, supervised modeling, recommendation logic, dashboard design, and user-facing AI interaction.
+
+For this reason, StoryIA is presented as the strongest example of end-to-end applied Data Science and AI development in this repository.
+
+## Featured Project
+
+### StoryIA: Multimodal AI Platform for Script Writing and Storytelling Analysis
+
+**Featured Project — Most Complete and Robust Deliverable**
+
+StoryIA is the main integrative project in this portfolio. It applies several techniques explored across previous modules to a real-world creative analytics problem: helping short-form video creators improve their scripts, thumbnails, hashtags, and narrative structure using data-driven insights and artificial intelligence.
+
+Unlike the previous projects, which focus on specific technical components such as predictive modeling, visual clustering, embeddings, or recommendation systems, StoryIA combines these elements into a complete multimodal platform. The system analyzes text, images, metadata, and engagement metrics to estimate the potential performance of a video and provide actionable recommendations to the user.
+
+The platform was designed for TikTok-style storytelling content and integrates Natural Language Processing, Computer Vision, semantic embeddings, supervised learning, unsupervised clustering, generative AI, and an interactive Streamlit interface. Users can upload a script and thumbnail, receive a complete narrative and visual analysis, compare their content against existing patterns, obtain recommendations through a chatbot, and generate audio using synthetic voice.
+
+This project represents the strongest example of end-to-end development in the portfolio because it moves beyond isolated analysis and delivers a functional AI-powered product.
+
+**Main techniques applied:**
+
+- TikTok data scraping.
+- Transcript and description processing.
+- Language normalization and translation.
+- Exploratory Data Analysis.
+- Feature engineering for narrative, textual, and visual variables.
+- Narrative metric extraction.
+- Text embeddings.
+- Visual thumbnail analysis with CLIP.
+- Image similarity analysis.
+- Unsupervised clustering with HDBSCAN.
+- Viral performance classification.
+- Narrative score regression.
+- Recommendation logic for content improvement.
+- Streamlit application development.
+- Dashboard and user interface design.
+- Chatbot integration for narrative feedback.
+- Synthetic voice generation.
+- Multimodal AI system design.
+
+**Integrated components from previous modules:**
+
+- Predictive modeling and analytical dataset construction.
+- Visual embeddings and similarity search.
+- Image-based clustering.
+- Recommendation systems.
+- NLP-based text analysis.
+- Data visualization and dashboard design.
+- User-facing AI interaction.
+
+**Results:**
+
+The project built a weighted narrative score based on likes, comments, and shares. It also identified visual and narrative clusters across different creators and developed supervised models to classify videos into low-performance, normal-performance, and viral categories.
+
+The final result is an interactive AI-powered assistant that helps creators evaluate and improve storytelling content through a combination of data analysis, machine learning, computer vision, NLP, and generative AI.
+
+**Document:** [`05_StoryIA_AI_Script_Assistant.pdf`](./05_StoryIA_AI_Script_Assistant.pdf)
+
+---
+
+## Additional Projects
 
 ### 1. Predictive Analysis of Sleep Quality
 
@@ -22,6 +83,10 @@ The dataset includes 20,000 records and 26 numerical, categorical, and boolean v
 - Weight of Evidence and Information Value.
 - Analytical dataset construction.
 - Dashboard development for data visualization.
+
+**Results:**
+
+The project produced a structured analytical dataset and a dashboard to explore how lifestyle, health, stress, physical activity, and screen exposure variables may affect sleep quality. It also served as a foundation for applying core Data Science concepts such as preprocessing, variable transformation, EDA, and feature selection.
 
 **Document:** [`01_Predictive_Analysis_Sleep_Quality.pdf`](./01_Predictive_Analysis_Sleep_Quality.pdf)
 
@@ -109,33 +174,6 @@ The supervised CNN model showed limited performance due to the high complexity o
 
 ---
 
-### 5. StoryIA: AI Assistant for Script Writing and Storytelling Analysis
-
-StoryIA is a multimodal AI project designed to help TikTok content creators improve their scripts, thumbnails, hashtags, and narrative structure. The platform analyzes textual, visual, and quantitative elements to estimate the potential success of a short-form video and generate actionable recommendations.
-
-The system combines Natural Language Processing, Computer Vision, semantic embeddings, supervised learning, unsupervised clustering, and generative AI. It was integrated into an interactive Streamlit platform where users can upload a script and thumbnail, receive a full analysis, get narrative recommendations through a chatbot, and generate audio using synthetic voice.
-
-**Main techniques applied:**
-
-- TikTok data scraping.
-- Transcript and description processing.
-- Language normalization and translation.
-- Narrative feature extraction.
-- Text embeddings.
-- Visual thumbnail analysis with CLIP.
-- Unsupervised clustering with HDBSCAN.
-- Viral performance classification.
-- Narrative score regression.
-- Streamlit application development.
-- Chatbot integration for narrative feedback.
-- Multimodal AI system design.
-
-**Results:**
-
-The project built a weighted narrative score based on likes, comments, and shares. It also identified visual and narrative clusters across different creators and developed supervised models to classify videos into low-performance, normal-performance, and viral categories. The final platform serves as an AI-powered assistant for creators who want to optimize storytelling content using data-driven insights.
-
-**Document:** [`05_StoryIA_AI_Script_Assistant.pdf`](./05_StoryIA_AI_Script_Assistant.pdf)
-
 ## Technical Areas Covered
 
 - Data Science.
@@ -150,6 +188,8 @@ The project built a weighted narrative score based on likes, comments, and share
 - Supervised and unsupervised learning.
 - Feature engineering.
 - Predictive modeling.
+- Clustering.
+- Similarity search.
 - Dashboards and interactive applications.
 - AI-powered creative tools.
 
